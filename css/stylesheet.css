@@ -1,0 +1,281 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quantico', sans-serif;
+}
+
+
+/* Header */
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    min-height: 80px;
+    border-bottom: orange 3px solid;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header li {
+    display: inline;
+    text-align: center;
+    padding: 0px 20px 0 20px;
+}
+
+.branding {
+    float: left;
+}
+
+.nav {
+    display: inline;
+    float: right;
+    margin-top: 20px;
+}
+
+.highlight {
+    color: orange;
+}
+
+#current a {
+    color: orange;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    font-weight: bold;
+    color: orange;
+    justify-content: center;
+}
+
+@media screen and (max-width: 693px) {
+    .branding {
+        float: none;
+        text-align: center;
+    }
+    #current {
+        padding: 0;
+        float: left;
+    }
+    #about {
+        padding: 0 0 0 25px;
+        float: none;
+        text-align: center;
+    }
+    #services {
+        padding: 0;
+        float: right;
+    }
+    ul {
+        padding: 0 0 0 10px;
+    }
+    .nav {
+        margin: 0;
+        text-align: center;
+        float: none;
+    }
+  }
+
+/* Showcase */
+
+#showcase {
+    min-height: 400px;
+    background: url(../img/showcase.jpg) no-repeat 0 -400px;
+    color: white;
+    text-align: center;
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    #showcase > .container > h1 {
+        margin-top: 40px;
+        font-size: 40px;
+    }
+    #showcase > .container > p {
+        font-size: 22px;
+        margin-top: 25px;
+    }
+    #showcase {
+        background: url(../img/showcase.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 693px) {
+    #showcase > .container > h1 {
+        margin-top: 25px;
+        font-size: 34px;
+    }
+    #showcase > .container > p {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    #showcase {
+        background: url(../img/showcase.jpg) no-repeat;
+        background-size: cover;
+    }
+}
+
+/* Newsletter */
+
+#newsletter {
+    min-height: 50px;
+    background-color: #35424a;
+    padding: 10px;
+}
+
+#newsletter h1 {
+    float: left;
+    color: white;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 20px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#newsletter button[type="submit"] {
+    height: 37px;
+    color: white;
+    background-color: orange;
+    border: 0;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:862px) {
+    .button {
+        margin-right: 5px;
+    }
+    #newsletter #email {
+        margin-left: 20px;
+    }
+    #newsletter .container {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:782px) {
+    .button {
+        margin-right: 5px;
+    }
+    #newsletter #email {
+        width: 200px;
+    }
+    #newsletter > .container {
+        width: auto;
+    }
+}
+
+@media screen and (max-width:672px) {
+    #newsletter h1{
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+    #newsletter #email {
+        width: 200px;
+        margin: 0;
+    }
+    #newsletter .button {
+        margin: 2px;
+        width: 212px;
+        padding: 4px;
+        font-weight: bold;
+    }
+    #newsletter > .container {
+        width: 60%;
+    }
+    #newsletter form {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:381px) {
+    .button {
+        margin-right: auto;
+    }
+    #newsletter > .container {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .button {
+        margin-right: 5px;
+    }
+    #newsletter #email {
+        width: 200px;
+    }
+}
+
+/* Boxes */
+
+#boxes .box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 20px 0 20px;
+}
+
+#boxes .box img {
+    width: 100px;
+}
+
+#boxes .container {
+    width: auto;
+}
+
+@media screen and (max-width:1217px) {
+    #boxes .container {
+        width: 50%;
+    }
+    #boxes .box {
+        width: auto;
+        float: none;
+        padding-top: 20px;
+    }
+}
+/* Footer */
+
+footer {
+    padding: 3px;
+    margin-top: 3px;
+    color: #ffffff;
+    background-color: orange;
+    text-align: center;
+}
