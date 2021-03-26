@@ -1,3 +1,1 @@
-# Media Query site
- Site based on Media Query
-https://inexpli.github.io/Media-Query-site/
+Same page made using Bootstrap: https://github.com/Inexpli/Bootstrap-site
