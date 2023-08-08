@@ -1,1 +1,1 @@
-Same page made using Bootstrap: https://github.com/Inexpli/Bootstrap-site
+### Same page made using Bootstrap: https://inexpli.github.io/Media-Query-site/
